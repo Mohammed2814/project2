@@ -7,13 +7,6 @@ const hours = document.querySelector ('.hours b')
 const mins = document.querySelector ('.mins b')
 const secs = document.querySelector ('.secs b')
 console.log(days);
-
-console.log(hours);
-
-console.log(mins);
-
-console.log(secs);
-
 $(document).ready(function(){
   $('.slider').slick({
     infinite: true,
@@ -116,4 +109,5 @@ function timefun(){
 timefun()
 setInterval(() => {
     timefun()
+
 }, 1000);
