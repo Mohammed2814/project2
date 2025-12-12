@@ -404,6 +404,7 @@ nav .BNav .active a span{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 100%;
 }
 .hot-deal .contner .timer{
     display: flex;
@@ -437,6 +438,7 @@ nav .BNav .active a span{
 }
 .hot-deal .contner p{
     font-size: 28px;
+    text-align: center;
 }
 .hot-deal .contner a{
     display: flex;
@@ -1474,5 +1476,23 @@ footer .bot .copyright span{
     }
     .cartItems .User-Cart .Cart-products .amount{
         width: 25%;
+    }
+}
+@media (max-width:400px){
+    nav .TNav span{
+        font-size: 10px;
+    }
+    .collection >span{
+        font-size: 30px;
+        height: 45px;
+    }
+    nav .BNav .logo{
+        width: 207px;
+    }
+    nav .BNav{
+        gap: 5px;
+    }
+    .hot-deal .contner{
+        width
     }
 }
